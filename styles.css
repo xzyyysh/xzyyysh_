@@ -353,8 +353,7 @@ section {
     text-align: center;
 }
 
-/* Projects Section - COMMENTED OUT FOR FUTURE USE */
-/*
+/* Projects Section */
 .projects {
     background: var(--secondary-bg);
 }
@@ -438,7 +437,6 @@ section {
 .project-link:hover {
     color: var(--accent-hover);
 }
-*/
 
 /* Contact Section */
 .contact-content {
@@ -562,9 +560,9 @@ section {
         grid-template-columns: 1fr;
     }
 
-    /* .projects-grid {
+    .projects-grid {
         grid-template-columns: 1fr;
-    } */
+    }
 
     .contact-links {
         flex-direction: column;
@@ -598,7 +596,7 @@ section {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* .project-content {
+    .project-content {
         padding: 1.5rem;
-    } */
+    }
 }
